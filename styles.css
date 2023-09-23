@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    border: solid red;
+}
+
+.content {
+    border: solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.content-inner {
+    border: solid black;
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    border: solid blue;
+}
