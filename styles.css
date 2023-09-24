@@ -83,7 +83,6 @@ body {
 }
 
 .body-container {
-    border: solid green;
     display: flex;
     max-height: 100%;
     width: 70vw;
@@ -97,7 +96,7 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     justify-content: center;
 }
 
@@ -106,8 +105,8 @@ body {
 }
 
 .section-one-content.right-split {
+    align-items: end;
     flex-grow: 5.5;
-    align-items: center;
 }
 
 .hero-img {
@@ -136,16 +135,106 @@ body {
 }
 
 .section-two-heading {
-    border: solid purple;
+    align-items: center;
+    color: #1F2937;
+    display: flex;
     flex-grow: 3;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    max-height: 30%;
 }
 
 .section-two-content {
-    border: solid purple;
+    display: flex;
     flex-grow: 7;
+    justify-content: center;
+}
+
+.info-item {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 20%;
+}
+
+.info-img {
+    border: solid #3882F6;
+    border-radius: 16px;
+    height: 65%;
+    width: 80%;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 18px;
 }
 
 .single-content {
-    border: solid purple;
+    align-items: center;
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 75%;
+}
+
+.quote-from {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    width: 75%;
+}
+
+.action-box {
+    background-color: #3882F6;
+    border-radius: 16px;
+    color: #E5E7EB;
+    display: flex;
+    height: 40%;
+    width: 100%;
+}
+
+.action-text  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.action-text-header {
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+}
+
+.action-text-body {
+    font-size: 14px;
+    width: 80%;
+}
+
+.action-button-box  {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border: solid #E5E7EB 2px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 14px;
+    font-weight: 700;
+    height: 32px;
+    width: 96px;
 }
